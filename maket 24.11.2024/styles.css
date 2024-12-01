@@ -1,0 +1,244 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+.container-1
+{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.container-2
+{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.container-3
+{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* display: flex; */
+}
+.container-3 h2
+{
+    font-size: 1.9em;
+}
+.container-4
+{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* display: flex; */
+}
+.container-4 h2
+{
+    font-size: 1.9em;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+.container-footer
+{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+/* Шапка */
+.header {
+    background: #0b0a1f;
+    color: #fff;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.nav
+{
+    margin: 0 auto;
+    display: flex;
+}
+.nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+/* Главный блок */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #141024;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    padding: 10px 20px;
+    background: #ff4a57;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero-image img {
+    max-width: 50%;
+    margin-left: 30%;
+}
+
+/* Описание */
+.about {
+    padding: 50px 0;
+    
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.stat
+{
+    margin-left: 5%;
+}
+
+.stat span {
+    font-size: 2.9em;
+    font-weight: bold;
+    color: red;
+    
+}
+
+/* Преимущества */
+.benefits {
+    padding: 50px 0;
+
+    
+}
+
+.benefits-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    /* text-align: center; */
+}
+.benefit
+{
+    width: 30%;
+    height: auto;
+    /* border: 1px black solid; */
+    margin: 0 auto;
+}
+.benefit p 
+{
+    font-weight: bold;
+    font-size:1.5em ;
+}
+.benefit span {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Тренеры */
+.trainers {
+    padding: 50px 0;
+    
+}
+
+.trainers-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.trainer
+{
+    text-align: center;
+}
+.trainer p
+{
+    font-weight: bold;
+    margin: 3% 40% 3% 10%; 
+    font-size: 1.5em; 
+}
+.trainer span
+{
+    margin: 3% 15% 3% 10%; 
+    font-size: 1.0em;
+}
+.trainer h6
+{
+    margin: 3% 52% 3% 10%; 
+    font-size: 1.1em; 
+    color: red;  
+}
+
+.trainer img {
+    border-radius: 5%;
+    max-width: 65%;
+    margin-bottom: 10px;
+}
+
+/* Подвал */
+.footer {
+    background: #0b0a1f;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.pypy
+{
+    height: 10%;
+    width: 50%;
+}
+.zifri
+{
+    font-size: 2.9em;
+}
+.phone
+{
+    /* margin-left: 70%; */
+}
+.phone-2
+{
+    margin-left: 70%;
+}
